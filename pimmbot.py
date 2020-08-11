@@ -58,4 +58,4 @@ async def 신규등록(ctx, arg):
 
         await ctx.send(f'{arg} 님이 등록되었습니다')
 
-bot.run('NzQwNTAyNjY5ODM5NTY0ODQw.Xyp82g.fdGfdwiSKCIfOcC24HOnF4s5NBU')
+bot.run(os.environ['token'])
