@@ -59,4 +59,5 @@ async def 제거(ctx, arg):
         await ctx.send(f'{arg} 님을 제거합니다')
     else:
         await ctx.send(f'{arg} 님은 등록되어 있지 않습니다')
+token = "Bot_Token"
 bot.run(token)
