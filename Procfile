@@ -1,1 +1,1 @@
-worker : python pimmbot.py
+worker: python pimmbot.py
