@@ -70,4 +70,4 @@ async def 출석초기화(ctx):
     for i in range (len(attendance)):
         attendance[i] = False
     await ctx.send('출석목록 초기화')
-bot.run(process.env.TOKEN)
+bot.run(os.environ['token'])
